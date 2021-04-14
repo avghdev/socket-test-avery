@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SocketIO Example</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="/static/index.js"></script>
+</head>
+<body>
+    <h1>WebSockets with Flask</h1>
+    <h2>Recieve:</h2>
+    <div id="log"></div>
+
+    <form id="message" method="POST" action="#">
+        <input type="text" name="message_data" id="message_data" placeholder="Message" />
+        <input type="submit" value="send" />
+    </form>
+
+
+</body>
+</html>
